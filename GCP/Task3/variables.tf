@@ -20,3 +20,11 @@ variable "service_account" {
     scopes = set(string)
   })
 }
+
+variable "source_image" {
+  default = "python-app-image"
+}
+
+variable "source_image_project" {
+  default = "stateless-app-demo"
+}
